@@ -12,13 +12,15 @@ Here you select the root directory and open it in your filesystem (open in finde
 
 ### Next steps
 
-- Create a map named `chrome`.
+- Create a folder named `chrome`.
 - Drop the file named `userChrome.css` from this repository inside the chrome map.
 - Restart your browser and enjoy
 
 ### Customization
 
-- You can customize the file live from the browser when hitting `cmd + alt + shit + i` or on windows: `ctrl + alt + shift + i`.
+- To customize the file from the browser, you have to turn on the live editing mode. To do this you press `cmd + shift + i` or `ctrl + shift + i` to open the element inspector and then click on the three dots on the right(in the top bar) and choose settings.
+- Scroll down in the settings till you reach `advanced settings` and turn on the last two options (debugging toolboxes and remote debugging)
+- Now you can customize the file live from the browser when hitting `cmd + alt + shit + i` or on windows: `ctrl + alt + shift + i`.
 - Go to the style editor and search for the userChrome.css file and start editing.
 - The inspector works like normal and you can just lookup every element on the page.
 - For inspiration visit: [The reddit page](https://www.reddit.com/r/FirefoxCSS/)
